@@ -21,10 +21,9 @@ async function main() {
     const temp = await Token.balanceOf(accounts[i])
     sumWallet += temp.toBigInt()
   }
-  console.log(sumWallet/BigInt(1000000000000000000))
   result = totalSupply.toBigInt() - sumWallet
-  console.log(result)
-  console.log(result/BigInt(1000000000000000000))
+  const ans = result/BigInt(1000000000000000000)
+  console.log(ans.toString())
 }
 
 // We recommend this pattern to be able to use async/await everywhere
