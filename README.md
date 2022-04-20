@@ -17,3 +17,6 @@ npx hardhat help
 - npx hardhat run scripts/test_test.js --network localhost
 - npx hardhat run scripts/test_deploy.js --network testnet
 - npx hardhat run scripts/test_correct.js --network testnet
+- npx hardhat run scripts/calc.js --network mainnet
+
+npx hardhat run scripts/calc.js --network mainnet
